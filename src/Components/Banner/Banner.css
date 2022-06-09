@@ -1,3 +1,10 @@
+.banner {
+    background-image: url("../../assets/images/wave.svg");
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 64px);
+}
+
 .resume-btn {
     border: 1px solid #1dd3a2;
     outline: 0;
@@ -12,4 +19,13 @@
     box-shadow: inset 208px 0 0 #fff;
     color: #1dd3a2;
     border: 1px solid #1dd3a2;
+}
+
+@media screen and (max-width: 576px) {
+    .resume-btn {
+        background-color: #fff;
+        border-radius: 10px;
+        color: #1dd3a2;
+        font-weight: 500;
+    }
 }
