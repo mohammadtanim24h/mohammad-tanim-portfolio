@@ -11,7 +11,7 @@ import nodejs from "../../assets/images/Language-Logo/node.png";
 const Skills = () => {
     return (
         <div className="max-w-screen-2xl mx-auto">
-            <h2 className="font-bold text-5xl text-slate-600 text-center mb-10">
+            <h2 className="font-bold text-4xl md:text-5xl text-slate-600 text-center mb-10">
                 My Skills
             </h2>
             <div className="flex justify-center">
