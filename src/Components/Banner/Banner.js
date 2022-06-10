@@ -31,7 +31,7 @@ const Banner = () => {
                     <div className="hidden md:flex justify-center">
                         <img
                             className="rounded-full w-80 h-80 object-cover shadow-lg"
-                            // src={profilePic}
+                            src={profilePic}
                             alt=""
                         />
                     </div>

@@ -7,57 +7,63 @@ import bootstrap from "../../assets/images/Language-Logo/bootstrap-icon-css.png"
 import tailwind from "../../assets/images/Language-Logo/tailwindcss-icon.svg";
 import mongodb from "../../assets/images/Language-Logo/mongodb.png";
 import nodejs from "../../assets/images/Language-Logo/node.png";
-import express from "../../assets/images/Language-Logo/express-js.png";
-import github from "../../assets/images/Language-Logo/github.png";
 
 const Skills = () => {
     return (
-        <div className="h-[60vh]">
+        <div className="max-w-screen-2xl mx-auto">
             <h2 className="font-bold text-5xl text-slate-600 text-center mb-10">
                 My Skills
             </h2>
-            <div className="flex flex-col md:flex-row justify-center items-center">
-                <div className="flex justify-between items-center p-6 shadow-lg rounded w-80 my-4 md:my-0 mx-4">
-                    <img className="w-16 mx-6" src={html} alt="" />
-                    <div>HTML</div>
-                </div>
-                <div className="flex justify-between items-center p-6 shadow-lg rounded w-80 my-4 md:my-0 mx-4">
-                    <img className="w-16 mx-6" src={css} alt="" />
-                    <div>CSS</div>
-                </div>
-                <div className="flex justify-between items-center p-6 shadow-lg rounded w-80 my-4 md:my-0 mx-4">
-                    <img className="w-16 mx-6" src={js} alt="" />
-                    <div>JavaScript</div>
-                </div>
-                <div className="flex justify-between items-center p-6 shadow-lg rounded w-80 my-4 md:my-0 mx-4">
-                    <img className="w-16 mx-6" src={react} alt="" />
-                    <div>React</div>
-                </div>
-                <div className="flex justify-between items-center p-6 shadow-lg rounded w-80 my-4 md:my-0 mx-4">
-                    <img className="w-16 mx-6" src={bootstrap} alt="" />
-                    <div>Bootstrap</div>
-                </div>
-            </div>
-            <div className="flex flex-col md:flex-row justify-center items-center mt-8">
-                <div className="flex justify-between items-center p-6 shadow-lg rounded w-80 my-4 md:my-0 mx-4">
-                    <img className="w-16 mx-6" src={tailwind} alt="" />
-                    <div>TailwindCSS</div>
-                </div>
-                <div className="flex justify-between p-6 shadow-lg items-center rounded w-80 my-4 md:my-0 mx-4">
-                    <img className="w-16 mx-6" src={mongodb} alt="" />
-                    <div>MongoDB</div>
-                </div>
-                <div className="flex justify-between p-6 shadow-lg items-center rounded w-80 my-4 md:my-0 mx-4">
-                    <img className="w-16 mx-6" src={nodejs} alt="" />
-                    <div>Node.js</div>
-                </div>
-                <div className="flex justify-between p-6 shadow-lg items-center rounded w-80 my-4 md:my-0 mx-4">
-                    <img className="w-16 mx-6" src={express} alt="" />
-                    <div>Express.js</div>
-                </div>
-                <div className="flex justify-between p-6 shadow-lg items-center rounded w-80 my-4 md:my-0 mx-4">
-                    <img className="w-16 mx-6" src={github} alt="" />
-                    <div>GitHub</div>
+            <div className="flex justify-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5">
+                    <div className="flex justify-between items-center p-6 shadow-lg rounded w-full md:w-80 my-4 md:my-0">
+                        <img className="w-16 mx-6" src={html} alt="" />
+                        <div className="font-bold text-slate-600 text-xl">
+                            HTML
+                        </div>
+                    </div>
+                    <div className="flex justify-between items-center p-6 shadow-lg rounded w-full md:w-80 my-4 md:my-0">
+                        <img className="w-16 mx-6" src={css} alt="" />
+                        <div className="font-bold text-slate-600 text-xl">
+                            CSS
+                        </div>
+                    </div>
+                    <div className="flex justify-between items-center p-6 shadow-lg rounded w-full md:w-80 my-4 md:my-0">
+                        <img className="w-16 mx-6" src={js} alt="" />
+                        <div className="font-bold text-slate-600 text-xl">
+                            JavaScript
+                        </div>
+                    </div>
+                    <div className="flex justify-between items-center p-6 shadow-lg rounded w-full md:w-80 my-4 md:my-0">
+                        <img className="w-16 mx-6" src={react} alt="" />
+                        <div className="font-bold text-slate-600 text-xl">
+                            React
+                        </div>
+                    </div>
+                    <div className="flex justify-between items-center p-6 shadow-lg rounded w-full md:w-80 my-4 md:my-0">
+                        <img className="w-16 mx-6" src={bootstrap} alt="" />
+                        <div className="font-bold text-slate-600 text-xl">
+                            Bootstrap
+                        </div>
+                    </div>
+                    <div className="flex justify-between items-center p-6 shadow-lg rounded w-full md:w-80 my-4 md:my-0">
+                        <img className="w-16 mx-6" src={tailwind} alt="" />
+                        <div className="font-bold text-slate-600 text-xl">
+                            TailwindCSS
+                        </div>
+                    </div>
+                    <div className="flex justify-between p-6 shadow-lg items-center rounded w-full md:w-80 my-4 md:my-0">
+                        <img className="w-16 mx-6" src={mongodb} alt="" />
+                        <div className="font-bold text-slate-600 text-xl">
+                            MongoDB
+                        </div>
+                    </div>
+                    <div className="flex justify-between p-6 shadow-lg items-center rounded w-full md:w-80 my-4 md:my-0">
+                        <img className="w-16 mx-6" src={nodejs} alt="" />
+                        <div className="font-bold text-slate-600 text-xl">
+                            Node.js
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
