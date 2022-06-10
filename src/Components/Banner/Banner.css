@@ -1,9 +1,9 @@
-.banner {
+/* .banner {
     background-image: url("../../assets/images/wave.svg");
     background-position: center;
     background-size: cover;
     height: calc(100vh - 110px);
-}
+} */
 
 .resume-btn {
     border: 1px solid #1dd3a2;

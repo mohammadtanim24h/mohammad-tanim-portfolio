@@ -18,14 +18,19 @@ const Banner = () => {
                             <h3 className="text-4xl mt-3">
                                 Front-End Web Developer
                             </h3>
-                            <button className="resume-btn mt-8 font-bold">
+                            <a
+                                href="https://drive.google.com/file/d/15u9YkGgdG83qdLcaC1sZL51yh2mCnmZe/view?usp=sharing"
+                                className="btn rounded-none resume-btn mt-8 font-bold"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
                                 Download Resume
-                            </button>
+                            </a>
                         </div>
                     </div>
                     <div className="hidden md:flex justify-center">
                         <img
-                            className="rounded-full w-4/5"
+                            className="rounded-full w-80 h-80 object-cover"
                             src={profilePic}
                             alt=""
                         />
