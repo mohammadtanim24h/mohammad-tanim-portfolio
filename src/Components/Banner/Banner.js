@@ -5,7 +5,7 @@ import "./Banner.css";
 const Banner = () => {
     return (
         <div className="banner w-full">
-            <div className="max-w-7xl mx-auto md:mt-12 h-[100vh]">
+            <div className="max-w-7xl mx-auto md:mt-12 h-[90vh]">
                 <div className="flex flex-col md:flex-row justify-around items-center">
                     <div className="text-center md:text-left h-[85vh] md:h-auto flex justify-center items-center">
                         <div>
@@ -30,8 +30,8 @@ const Banner = () => {
                     </div>
                     <div className="hidden md:flex justify-center">
                         <img
-                            className="rounded-full w-80 h-80 object-cover border-8 border-green-300"
-                            src={profilePic}
+                            className="rounded-full w-80 h-80 object-cover shadow-lg"
+                            // src={profilePic}
                             alt=""
                         />
                     </div>

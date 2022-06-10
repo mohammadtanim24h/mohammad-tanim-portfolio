@@ -40,7 +40,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl hover:bg-base-100">
+                    <a className="btn btn-ghost normal-case text-xl hover:bg-[#F0F8FF]">
                         Mohammad Tanim
                     </a>
                 </div>
