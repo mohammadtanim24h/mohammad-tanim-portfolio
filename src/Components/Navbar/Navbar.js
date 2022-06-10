@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div className="header w-full">
-            <div className="navbar bg-base-100 max-w-7xl mx-auto">
+        <div className="header w-full sticky top-0 shadow bg-[#F0F8FF]">
+            <div className="navbar max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -46,17 +46,17 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal p-0 gap-2">
-                        <li className="border-b-2 border-b-white hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
-                            <a className="hover:bg-base-100">Home</a>
+                        <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
+                            <a className="hover:bg-[#F0F8FF]">Home</a>
                         </li>
-                        <li className="border-b-2 border-b-white hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
-                            <a className="hover:bg-base-100">About</a>
+                        <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
+                            <a className="hover:bg-[#F0F8FF]">About</a>
                         </li>
-                        <li className="border-b-2 border-b-white hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
-                            <a className="hover:bg-base-100">Projects</a>
+                        <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
+                            <a className="hover:bg-[#F0F8FF]">Projects</a>
                         </li>
-                        <li className="border-b-2 border-b-white hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
-                            <a className="hover:bg-base-100">Contact</a>
+                        <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
+                            <a className="hover:bg-[#F0F8FF]">Contact</a>
                         </li>
                     </ul>
                 </div>

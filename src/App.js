@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
     return (
-        <div>
+        <div className="h-[500vh]">
             <Navbar></Navbar>
             <Banner></Banner>
         </div>
