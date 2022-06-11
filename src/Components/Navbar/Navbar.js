@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div className="header w-full sticky top-0 shadow bg-[#F0F8FF]">
+        <div className="header w-full sticky top-0 shadow bg-[#F0F8FF] z-50">
             <div className="navbar max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
