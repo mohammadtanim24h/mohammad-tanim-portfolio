@@ -13,14 +13,14 @@ const Project = ({ project }) => {
                         {name}
                     </h2>
                     <div className="card-actions justify-center">
-                        <button className="btn bg-primary text-white border-none">
+                        <button className="btn bg-primary rounded-full px-8 py-4 hover:bg-[#0fb488] text-white border-none">
                             Details
                         </button>
                         <a
                             href={live_site}
                             rel="noreferrer"
                             target="_blank"
-                            className="btn bg-primary text-white border-none"
+                            className="btn bg-primary rounded-full px-8 py-4 hover:bg-[#0fb488] text-white border-none"
                         >
                             Live Site
                         </a>

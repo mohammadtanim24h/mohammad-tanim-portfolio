@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div className="banner">
             <div className="max-w-7xl mx-auto md:mt-12 h-[90vh] p-12">
-                <div className="flex flex-col h-3/4 md:flex-row justify-around items-center">
+                <div className="flex flex-col h-full md:h-3/4 md:flex-row justify-around items-center">
                     <div className="text-center md:text-left h-[85vh] md:h-auto flex justify-center items-center">
                         <div>
                             <h2 className="text-4xl md:text-6xl">
