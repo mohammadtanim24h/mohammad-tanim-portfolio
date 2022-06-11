@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -26,17 +27,42 @@ const Navbar = () => {
                             tabIndex="0"
                             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                         >
-                            <li>
-                                <a>Home</a>
+                            <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
+                                <a
+                                    onClick={() => window.scroll(0, 0)}
+                                    className="hover:bg-[#F0F8FF]"
+                                >
+                                    Home
+                                </a>
                             </li>
-                            <li>
-                                <a>About</a>
+                            <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
+                                <a href="#about" className="hover:bg-[#F0F8FF]">
+                                    About
+                                </a>
                             </li>
-                            <li>
-                                <a>Projects</a>
+                            <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
+                                <a
+                                    href="#skills"
+                                    className="hover:bg-[#F0F8FF]"
+                                >
+                                    Skills
+                                </a>
                             </li>
-                            <li>
-                                <a>Contact</a>
+                            <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
+                                <a
+                                    href="#projects"
+                                    className="hover:bg-[#F0F8FF]"
+                                >
+                                    Projects
+                                </a>
+                            </li>
+                            <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
+                                <a
+                                    href="#contact"
+                                    className="hover:bg-[#F0F8FF]"
+                                >
+                                    Contact
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -47,19 +73,37 @@ const Navbar = () => {
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal p-0 gap-2">
                         <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
-                            <a onClick={() => window.scroll(0, 0)} className="hover:bg-[#F0F8FF]">Home</a>
+                            <a
+                                onClick={() => window.scroll(0, 0)}
+                                className="hover:bg-[#F0F8FF]"
+                            >
+                                Home
+                            </a>
                         </li>
                         <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
-                            <a href="#about" className="hover:bg-[#F0F8FF]">About</a>
+                            <a href="#about" className="hover:bg-[#F0F8FF]">
+                                About
+                            </a>
                         </li>
                         <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
-                            <a href="#skills" className="hover:bg-[#F0F8FF]">Skills</a>
+                            <a href="#skills" className="hover:bg-[#F0F8FF]">
+                                Skills
+                            </a>
                         </li>
                         <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
-                            <a href="#projects" className="hover:bg-[#F0F8FF]">Projects</a>
+                            <a href="#projects" className="hover:bg-[#F0F8FF]">
+                                Projects
+                            </a>
                         </li>
                         <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
-                            <a href="#contact" className="hover:bg-[#F0F8FF]">Contact</a>
+                            <a href="#contact" className="hover:bg-[#F0F8FF]">
+                                Contact
+                            </a>
+                        </li>
+                        <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
+                            <Link to="/blogs" className="hover:bg-[#F0F8FF]">
+                                Blogs
+                            </Link>
                         </li>
                     </ul>
                 </div>
