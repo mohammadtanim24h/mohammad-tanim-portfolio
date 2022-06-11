@@ -7,7 +7,7 @@ import Skills from "./Components/Skills/Skills";
 
 function App() {
     return (
-        <div className="h-[500vh]">
+        <div>
             <Navbar></Navbar>
             <Banner></Banner>
             <Skills></Skills>

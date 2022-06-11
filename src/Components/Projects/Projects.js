@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Project from "../Project/Project";
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -7,14 +8,16 @@ const Projects = () => {
             .then((res) => res.json())
             .then((data) => setProjects(data));
     }, []);
-    
+
     return (
-        <div className="max-w-7xl mx-auto">
-            <h2 className="text-slate-600 font-bold text-4xl text-center">Projects</h2>
-            <div> 
-                {
-                    projects.map(project => console.log(project))
-                }
+        <div className="max-w-7xl mx-auto mb-16">
+            <h2 className="text-slate-600 font-bold text-4xl text-center mb-8">
+                Projects
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3">
+                {projects.map((project) => (
+                    <Project key={project.id} project={project}></Project>
+                ))}
             </div>
         </div>
     );
