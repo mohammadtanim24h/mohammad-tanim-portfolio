@@ -47,7 +47,7 @@ const Navbar = () => {
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal p-0 gap-2">
                         <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
-                            <a className="hover:bg-[#F0F8FF]">Home</a>
+                            <a onClick={() => window.scroll(0, 0)} className="hover:bg-[#F0F8FF]">Home</a>
                         </li>
                         <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
                             <a href="#about" className="hover:bg-[#F0F8FF]">About</a>
