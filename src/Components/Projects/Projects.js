@@ -10,7 +10,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <div className="max-w-7xl mx-auto mb-16">
+        <div id="projects" className="max-w-7xl mx-auto mb-16">
             <h2 className="text-slate-600 font-bold text-4xl text-center mb-8">
                 Projects
             </h2>
