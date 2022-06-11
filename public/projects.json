@@ -1,0 +1,41 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "Active Wheels",
+        "description": "This is a website of a car parts manufacturing company. There are two main roles on this website. Admin and normal user. Users can order parts, pay for them using a credit card, and cancel any unpaid order. They can also add a review. Admins can make another user an admin, they can add any parts which will show up on the home page. They can cancel any unpaid order and ship paid orders. Both admin and users can update their profiles.",
+        "live_site": "https://active-wheels.web.app/",
+        "github_client": "https://github.com/mohammadtanim24h/active-wheels-client-side",
+        "github_server": "https://github.com/mohammadtanim24h/active-wheels-server-side",
+        "technologies": ["React", "Node.js", "MongoDB", "ExpressJS", "TailwindCSS", "DaisyUI", "Firebase", "Heroku", "Stripe"],
+        "img1": "https://i.ibb.co/QMBBJVV/Screenshot-137.png",
+        "img2": "https://i.ibb.co/4tT9szX/Screenshot-138.png",
+        "img3": "https://i.ibb.co/YbyZ8h8/Screenshot-139.png",
+        "img4": "https://i.ibb.co/b7V2Dvj/Screenshot-136.png"
+    },
+    {
+        "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+        "name": "Perfumania",
+        "description": "This is an Inventory management website. Here you can add your products, and manage and maintain them. You can keep track of them on this website and much more. On the homepage of this website, there are many products. Users can update the quantity of products and also restock the products. There is a dashboard on the homepage. It shows the total number of products, how many of them were sold, and how much quantity is available. Logged-in users can add their products, and update or delete them. All products are shown on the manage inventories page. On my items page, users will see only products added by them. Also, there is a blog section where there are answers to four important questions about NodeJs, MongoDB, Databases, and JWT.",
+        "live_site": "https://perfumania-4c8ba.web.app/",
+        "github_client": "https://github.com/mohammadtanim24h/perfumania",
+        "github_server": "https://github.com/mohammadtanim24h/perfumania-server-side",
+        "technologies": ["React", "React Bootstrap", "Node.js", "MongoDB", "ExpressJS", "Firebase", "Heroku", "React Router"],
+        "img1": "https://i.ibb.co/swd4N6n/Screenshot-140.png",
+        "img2": "https://i.ibb.co/D9shWRP/Screenshot-141.png",
+        "img3": "https://i.ibb.co/M1Cw23f/Screenshot-142.png",
+        "img4": "https://i.ibb.co/WzHVSXm/Screenshot-143.png"
+    },
+    {
+        "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+        "name": "Gym Freak",
+        "description": "This is a website about a Gym trainer, who provides many services to his clients. On the homepage, there are four services. Every service has a button called 'Book Now'. If you click it, it will take you to the checkout page. If you are not logged in, you will be redirected to the login page and from there you can log in from your account. After login, you will be redirected back to the checkout page. If you are logged in you will find a button to log out in the navbar. There are options to log in using Google and GitHub. Also, users can sign up using email and password. ",
+        "live_site": "https://gym-freak-a8e55.web.app/",
+        "github_client": "https://github.com/mohammadtanim24h/gym-freak",
+        "github_server": null,
+        "technologies": ["React", "React Bootstrap", "Firebase", "React Router", "React Firebase hooks"],
+        "img1": "https://i.ibb.co/svp0Hx2/Screenshot-144.png",
+        "img2": "https://i.ibb.co/J3GKwfw/Screenshot-145.png",
+        "img3": "https://i.ibb.co/kHsZsn4/Screenshot-146.png",
+        "img4": "https://i.ibb.co/Pmbj81B/Screenshot-147.png"
+    }
+]
