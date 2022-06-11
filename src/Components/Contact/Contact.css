@@ -1,9 +1,9 @@
 .submit-btn {
     padding: 10px 30px;
-    border: 2px solid #1dd3a2;
+    border: 1px solid #1dd3a2;
     border-radius: 25px;
     color: #1dd3a2;
-    font-weight: 500;
+    font-weight: 600;
     transition: all 0.25s ease 0s;
 }
 
