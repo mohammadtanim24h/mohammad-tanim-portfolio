@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Project = ({ project }) => {
     const { name, img1, live_site, id } = project;
+    const navigate = useNavigate();
     return (
         <div className="flex justify-center mb-6 md:mb-0">
             <div className="card card-compact w-80 md:w-96 shadow-xl">
@@ -13,7 +15,7 @@ const Project = ({ project }) => {
                         {name}
                     </h2>
                     <div className="card-actions justify-center">
-                        <button className="btn bg-primary rounded-full px-8 py-4 hover:bg-[#0fb488] text-white border-none">
+                        <button onClick={() => navigate(`/project/${id}`)} className="btn bg-primary rounded-full px-8 py-4 hover:bg-[#0fb488] text-white border-none">
                             Details
                         </button>
                         <a
