@@ -1,4 +1,5 @@
 import React from "react";
+import './Contact.css';
 
 const Contact = () => {
     return (
@@ -32,7 +33,7 @@ const Contact = () => {
                             placeholder="Message"
                         ></textarea>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center mt-4">
                         <button className="submit-btn">Submit</button>
                     </div>
                 </div>
