@@ -19,7 +19,7 @@ const ProjectDetails = () => {
         <div className="max-w-7xl mx-auto">
             <button
                 onClick={() => navigate("/")}
-                className="btn btn-primary rounded-none rounded-bl-sm text-white fixed top-0 right-0"
+                className="btn btn-primary rounded-none rounded-br-sm text-white fixed top-0 left-0"
             >
                 Back to home
             </button>
@@ -50,6 +50,34 @@ const ProjectDetails = () => {
                             <p className="text-base font-semibold">
                                 {project?.technologies?.join(", ")}.
                             </p>
+                        </div>
+                        <div className="flex flex-col md:flex-row gap-3 mt-5">
+                            <a
+                                href={project?.live_site}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="btn btn-primary text-white rounded-full px-8 py-4 w-full md:w-auto"
+                            >
+                                Live Site
+                            </a>
+                            <a
+                                href={project?.github_client}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="btn btn-primary text-white rounded-full px-8 py-4 w-full md:w-auto"
+                            >
+                                Github Client
+                            </a>
+                            {project?.github_server && (
+                                <a
+                                    href={project?.github_server}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="btn btn-primary text-white rounded-full px-8 py-4 w-full md:w-auto"
+                                >
+                                    Github Server
+                                </a>
+                            )}
                         </div>
                     </div>
                     <div
