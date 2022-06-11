@@ -3,7 +3,7 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <div className="max-w-7xl mx-auto">
+        <div id="contact" className="max-w-7xl mx-auto">
             <div>
                 <h2 className="text-slate-600 font-bold text-4xl text-center">
                     Get in touch

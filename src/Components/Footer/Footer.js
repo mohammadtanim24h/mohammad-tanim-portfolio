@@ -8,7 +8,7 @@ const Footer = () => {
     const date = new Date();
     const year = date.getFullYear();
     return (
-        <div className="flex justify-center items-center h-[220px] p-8 md:p-0">
+        <div className="flex justify-center items-center h-[200px] p-8 md:p-0">
             <div>
                 <div className="mb-5 flex justify-center">
                     <a href="https://www.facebook.com/mohammad.tanim.1212" rel="noreferrer" target="_blank">

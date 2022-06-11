@@ -59,7 +59,7 @@ const Navbar = () => {
                             <a href="#projects" className="hover:bg-[#F0F8FF]">Projects</a>
                         </li>
                         <li className="border-b-2 border-b-[#F0F8FF] hover:border-b-2 duration-400 rounded-none hover:border-b-primary">
-                            <a className="hover:bg-[#F0F8FF]">Contact</a>
+                            <a href="#contact" className="hover:bg-[#F0F8FF]">Contact</a>
                         </li>
                     </ul>
                 </div>

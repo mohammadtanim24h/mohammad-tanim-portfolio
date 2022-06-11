@@ -3,7 +3,7 @@ import about from "../../assets/images/about.png";
 
 const About = () => {
     return (
-        <div id="about" className="max-w-7xl min-h-min md:h-[60vh] mx-auto mb-16">
+        <div id="about" className="max-w-7xl min-h-min md:h-[60vh] mx-auto mb-16 p-8 2xl:p-0">
             <div>
                 <h2 className="text-slate-600 font-bold text-4xl text-center mb-8">
                     About me
